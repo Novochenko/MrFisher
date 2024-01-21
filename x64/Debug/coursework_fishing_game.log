@@ -1,0 +1,21 @@
+﻿  ButtonsUpdate.cpp
+  Collision.cpp
+  ECS.cpp
+  Fishes.cpp
+C:\Development\coursework_fishing_game\coursework_fishing_game\Fishes.cpp(115,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Game.cpp
+  GameObject.cpp
+  HookNFishes.cpp
+C:\Development\coursework_fishing_game\coursework_fishing_game\HookNFishes.cpp(27,49): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+  HookNPlayer.cpp
+  main.cpp
+  Map.cpp
+  Menu.cpp
+  Pause.cpp
+  Death.cpp
+  Record.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\ranges(12): warning STL4038: The contents of <ranges> are available only with C++20 or later.
+  Vector2D.cpp
+  TextureManager.cpp
+  Создание кода...
+  coursework_fishing_game.vcxproj -> C:\Development\coursework_fishing_game\x64\Debug\coursework_fishing_game.exe

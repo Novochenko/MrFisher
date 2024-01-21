@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\assets">
+      <UniqueIdentifier>{79e9a7c3-10c3-45d1-a704-ef185b0ee603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ECS">
+      <UniqueIdentifier>{94f6248b-272f-4f10-9e6e-568f9b77dc20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS.cpp">
+      <Filter>Исходные файлы\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="HookNPlayer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Fishes.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="HookNFishes.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonsUpdate.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Pause.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Death.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Record.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS.h">
+      <Filter>Исходные файлы\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>Исходные файлы\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Исходные файлы\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteComponent.h">
+      <Filter>Исходные файлы\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardController.h">
+      <Filter>Исходные файлы\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderComponent.h">
+      <Filter>Исходные файлы\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="TileComponent.h">
+      <Filter>Исходные файлы\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Исходные файлы\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="HookNPlayer.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Fishes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="HookNFishes.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="HookKeyboardController.h">
+      <Filter>Исходные файлы\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseController.h">
+      <Filter>Исходные файлы\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Header.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Menu.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerNameEvent.h">
+      <Filter>Исходные файлы\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="SubMenuController.h">
+      <Filter>Исходные файлы\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Buttons.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonsUpdate.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="TextOutput.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\cloud.png">
+      <Filter>Исходные файлы\assets</Filter>
+    </Image>
+    <Image Include="assets\fish_pack.png">
+      <Filter>Исходные файлы\assets</Filter>
+    </Image>
+    <Image Include="assets\player.png">
+      <Filter>Исходные файлы\assets</Filter>
+    </Image>
+    <Image Include="assets\waves.png">
+      <Filter>Исходные файлы\assets</Filter>
+    </Image>
+    <Image Include="assets\water.png">
+      <Filter>Исходные файлы\assets</Filter>
+    </Image>
+    <Image Include="assets\ItemsFishingA.png">
+      <Filter>Исходные файлы\assets</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
